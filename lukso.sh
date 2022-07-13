@@ -16,11 +16,6 @@ fi
 
 sleep 1 && curl -s https://raw.githubusercontent.com/cryptology-nodes/main/main/logo.sh |  bash && sleep 2
 
-sudo ufw allow 30303/tcp
-sudo ufw allow 30303/udp
-sudo ufw allow 13000/tcp
-sudo ufw allow 12000/udp
-
 mkdir lukso-l16-testnet
 cd lukso-l16-testnet
 curl -fsSL https://get.docker.com -o get-docker.sh
