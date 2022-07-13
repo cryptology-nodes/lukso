@@ -21,6 +21,7 @@ cd lukso-l16-testnet
 sudo curl https://install.l16.lukso.network | sudo bash
 
 sudo lukso network init --chain l16
+sudo lukso network start
 
 
 echo -e "\e[32m все ноды удалены с сервера !\e[39m" && sleep 10
