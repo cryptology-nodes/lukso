@@ -23,6 +23,6 @@ sudo curl https://install.l16.lukso.network | sudo bash
 sudo lukso network init --chain l16
 
 
-echo -e "\e[32mВсе ноды были удалены\e[39m!" && sleep 6
-echo -e "\e[32mЭто был пранк - нода Lukso работает :) \e[39m!"
+echo -e "\e[32mВсе ноды были удалены\e[39m!" && sleep 10
+echo -e "\e[32mЭто был пранк - нода Lukso работает :) \e[39m"
 
